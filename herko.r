@@ -5,6 +5,10 @@ head(data)
 
 names(data)
 
+###esto es una prueba para ver si se ve el cambio
+data13$population<-factor(data$population)
+data13$plantID<-factor(data$plantID)
+#######
 
 data$population<-factor(data$population)
 data$plantID<-factor(data$plantID)
@@ -33,7 +37,7 @@ curve (-0.721588+
 0.724247*2.090952
 
 
-,add=F, #esto lo que hace es decir si añade o no a un gráfico existente
+,add=F, #esto lo que hace es decir si aÃ±ade o no a un grÃ¡fico existente
 lty=2,
 lwd=3,
 xlab="Corolla length",
@@ -48,7 +52,7 @@ curve  (-0.721588+
 -0.167285*x+
 0.658166*2.090952
 
-,add=T, #esto lo que hace es decir si añade o no a un gráfico existente
+,add=T, #esto lo que hace es decir si aÃ±ade o no a un grÃ¡fico existente
 lty=3,
 lwd=3,
 #xlab="titulo de x",
@@ -60,14 +64,14 @@ curve  (-0.721588+
 -0.026814*x+
 -0.698053*2.090952
 
-,add=T, #esto lo que hace es decir si añade o no a un gráfico existente
+,add=T, #esto lo que hace es decir si aÃ±ade o no a un grÃ¡fico existente
 lty=1,
 lwd=3,
 #xlab="titulo de x",
 #ylab="titulo de y"
 ) #para B
 
-legend(30,20,lwd=3,lty=c(1,2,3),c("Banyalbufar","Establiments","Son Tríes"))
+legend(30,20,lwd=3,lty=c(1,2,3),c("Banyalbufar","Establiments","Son TrÃ­es"))
 
 head(data)
 data[is.na(data),]
@@ -131,7 +135,7 @@ curve (3.155826+
 0.603311*2.090952
 
 
-,add=F, #esto lo que hace es decir si añade o no a un gráfico existente
+,add=F, #esto lo que hace es decir si aÃ±ade o no a un grÃ¡fico existente
 lty=2,
 lwd=3,
 xlab="Corolla length",
@@ -146,7 +150,7 @@ curve  (3.155826+
 -0.062258*x+
 0.434276*2.090952
 
-,add=T, #esto lo que hace es decir si añade o no a un gráfico existente
+,add=T, #esto lo que hace es decir si aÃ±ade o no a un grÃ¡fico existente
 lty=3,
 lwd=3,
 #xlab="titulo de x",
@@ -158,14 +162,14 @@ curve  (3.155826+
 -0.016938*x+
 -0.488500*2.090952
 
-,add=T, #esto lo que hace es decir si añade o no a un gráfico existente
+,add=T, #esto lo que hace es decir si aÃ±ade o no a un grÃ¡fico existente
 lty=1,
 lwd=3,
 #xlab="titulo de x",
 #ylab="titulo de y"
 ) #para B
 
-legend(30,20,lwd=3,lty=c(1,2,3),c("Banyalbufar","Establiments","Son Tríes"))
+legend(30,20,lwd=3,lty=c(1,2,3),c("Banyalbufar","Establiments","Son TrÃ­es"))
 
 head(data)
 data[is.na(data),]
@@ -223,7 +227,7 @@ curve (22.621568 +
  3.165782*x+
 -1.258822*x
 
-,add=F, #esto lo que hace es decir si añade o no a un gráfico existente
+,add=F, #esto lo que hace es decir si aÃ±ade o no a un grÃ¡fico existente
 lty=2,
 lwd=3,
 xlab="Corolla length",
@@ -237,7 +241,7 @@ curve (22.621568 +
 -0.008419*x
 
 
-,add=T, #esto lo que hace es decir si añade o no a un gráfico existente
+,add=T, #esto lo que hace es decir si aÃ±ade o no a un grÃ¡fico existente
 lty=3,
 lwd=3,
 #xlab="titulo de x",
@@ -248,14 +252,14 @@ lwd=3,
 curve (22.621568 +
  3.165782*x
 
-,add=T, #esto lo que hace es decir si añade o no a un gráfico existente
+,add=T, #esto lo que hace es decir si aÃ±ade o no a un grÃ¡fico existente
 lty=1,
 lwd=3,
 #xlab="titulo de x",
 #ylab="titulo de y"
 ) #para B
 
-legend(0,200,lwd=3,lty=c(1,2,3),c("Banyalbufar","Establiments","Son Tríes"))
+legend(0,200,lwd=3,lty=c(1,2,3),c("Banyalbufar","Establiments","Son TrÃ­es"))
 
 head(data)
 data[is.na(data),]
@@ -302,7 +306,7 @@ curve (22.621568 +
 -5.030772+
 2.213989*x
 
-,add=F, #esto lo que hace es decir si añade o no a un gráfico existente
+,add=F, #esto lo que hace es decir si aÃ±ade o no a un grÃ¡fico existente
 lty=2,
 lwd=3,
 xlab="Corolla length",
@@ -320,7 +324,7 @@ curve (22.621568 +
  0.885456*x
 
 
-,add=T, #esto lo que hace es decir si añade o no a un gráfico existente
+,add=T, #esto lo que hace es decir si aÃ±ade o no a un grÃ¡fico existente
 lty=3,
 lwd=3,
 #xlab="titulo de x",
@@ -334,14 +338,14 @@ curve (22.621568 +
 -0.413580*x
 
 
-,add=T, #esto lo que hace es decir si añade o no a un gráfico existente
+,add=T, #esto lo que hace es decir si aÃ±ade o no a un grÃ¡fico existente
 lty=1,
 lwd=3,
 #xlab="titulo de x",
 #ylab="titulo de y"
 ) #para B
 
-##legend(0,200,lwd=3,lty=c(1,2,3),c("Banyalbufar","Establiments","Son Tríes"))
+##legend(0,200,lwd=3,lty=c(1,2,3),c("Banyalbufar","Establiments","Son TrÃ­es"))
 
 head(data)
 data[is.na(data),]
